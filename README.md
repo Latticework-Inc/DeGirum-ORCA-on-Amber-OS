@@ -5,21 +5,32 @@ English
 ## Table of Contents
 
 - [Table of Contents](#table-of-contents)
-- [Installation Guide](#-installation-guide)
+- [Amber OS User Guide](#-amberos-guide)
+	- [Amber OS finder](#-amberos-finder)
 	- [PRO Tools installation](#-protools-installaiton)
 	- [DeGirum Client installation](#-dgclient-installaiton)
+	- [Download user manuals](#-user_manuals)
 - [Getting Started](#-getting-started)
 - [Run DeGirum Notebooks](#-run-degirum-notebooks)
 	- [To Launch a Single Notebook with Cloud Key](#to-launch-degirum_cloud)
 	- [To Launch a Single Notebook with Local IP](#to-launch-degirum_ip)
-- [Troubleshooting](#️-troubleshooting)
 - [FAQ](#-faq)
 
 
+<div id='-amberos-guide'/>
 
-<div id='-installation-guide'/>
+## Amber OS User Guide
 
-## Installation Guide
+<div id='-amberos-finder'/>
+
+## Amber OS finder
+1. Open a web browser on the same network as Amber OS.
+2. Type "latticenode.local" in the address bar.
+3. Click your Amber OS and use the default account(admin) to log in.
+4. The default account/password is admin/admin1234. 
+
+<img src="./images/amberos_finder.gif" height="600">
+
 
 <div id='-protools-installaiton'/>
 
@@ -39,17 +50,24 @@ English
 
 <img src="./images/degirum_client_install.gif" height="600">
 
+<div id='-user_manuals'/>
+
+## Download user manuals
+1. [Amber OS](https://myamber.cloud/life/v1/file?query=%7B%22token%22%3A%22dc86bf44980a529fa3b0fce6a6e2d08e%22%2C%22root%22%3A%22cloud%22%2C%22path%22%3A%22%2Fshared-to%2Fffa377c3-a8c6f35d%2FAmberPRO%2FAmberPRO+OS+User+Manual%2FAmber+OS+-+User+Manual.pdf%22%2C%22download%22%3A%22true%22%7D)
+2. [PRO Tools](https://myamber.cloud/life/v1/file?query=%7B%22token%22%3A%22dc86bf44980a529fa3b0fce6a6e2d08e%22%2C%22root%22%3A%22cloud%22%2C%22path%22%3A%22%2Fshared-to%2Fffa377c3-a8c6f35d%2FAmberPRO%2FPRO+Tools+%28beta%29%2FPRO+Tools+1.19.1+User+Manual.pdf%22%2C%22download%22%3A%22true%22%7D)
+
 
 <div id='-getting-started'/>
 
 ## Getting Started
 
-1. Sign up for an AmberCloud account(https://myamber.cloud/#ln/signup).
-2. Install [Pro Tools](#-protools-installaiton).  
-3. Install [DeGirum Client](#-dgclient-installaiton) 
-4. Sign up for an account on DeGirum Cloud Portal and Log in. (https://cs.degirum.com)
-5. Study the DeGirum Development Tools(inclued pySDK,AI Models and on-line documents) are available on the Cloud Platform(https://docs.degirum.com/content/).
-6. Explore Degirum Jupyter notebooks using github URL (https://github.com/DeGirum/PySDKExamples), select one related to your needs or give them all a try. Good Luck!
+1. Use [Amber OS Finder](#amber-os-finder) to find your Amber OS.
+2. Sign up for an AmberCloud account(https://myamber.cloud/#ln/signup).
+3. Install [Pro Tools](#-protools-installaiton).  
+4. Install [DeGirum Client](#-dgclient-installaiton) 
+5. Sign up for an account on DeGirum Cloud Portal and Log in. (https://cs.degirum.com)
+6. Study the DeGirum Development Tools(inclued pySDK,AI Models and on-line documents) are available on the Cloud Platform(https://docs.degirum.com/content/).
+7. Explore Degirum Jupyter notebooks using github URL (https://github.com/DeGirum/PySDKExamples), select one related to your needs or give them all a try. Good Luck!
 
 To install to the new release version, please run `python -m pip install degirum --extra-index-url https://degirum.github.io/simple` in degirum client container. 
 
@@ -116,12 +134,9 @@ result.image_overlay.show()  # show graphical results
 ```
 
 
-
-<div id='-troubleshooting'/>
-
-## Troubleshooting
-
-<div id='#-faq'/>
+<div id='-faq'/>
 
 ## FAQ
-- [FAQ](#-faq)
+- [Latticework Support](https://support.myamberlife.com/hc/en-us)
+- [DeGirum Support](https://degirum.ai/)
+
