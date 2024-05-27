@@ -19,7 +19,7 @@ from pathlib import Path
 # import IPython.display
 
 # Connect to AI inference engine
-hw_location = '61.222.194.101' 
+hw_location = '172.17.0.1' 
 model_name = 'NVRVehicleV8n--512x512_quant_n2x_orca1_1'
 
 zoo = dg.connect(hw_location)

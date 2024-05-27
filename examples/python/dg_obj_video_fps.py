@@ -132,7 +132,7 @@ if __name__ == "__main__":
     RED    = (0,0,255)
     
     # Connect to AI inference engine
-    hw_location = '61.222.194.101' 
+    hw_location = '172.17.0.1' 
     model_name = 'HumanVehicleV8n--512x512_quant_n2x_orca1_1'
     # model_name = 'NVRVehicleV8n--512x512_quant_n2x_orca1_1'
     

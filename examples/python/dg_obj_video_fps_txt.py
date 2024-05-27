@@ -82,7 +82,7 @@ if __name__ == "__main__":
     RED    = (0,0,255)
     
     # Connect to AI inference engine
-    hw_location = '61.222.194.101' 
+    hw_location = '172.17.0.1' 
 
     # Connect to degirum server ###
     zoo = dg.connect(hw_location)
